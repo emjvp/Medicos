@@ -22,3 +22,26 @@
     <ion-router-outlet id="main-content"></ion-router-outlet>
   </ion-split-pane>
 </ion-app>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDZNWK_zKpKrYAFOqhEHcke875KTKJ8zr0",
+    authDomain: "doctors-130f6.firebaseapp.com",
+    databaseURL: "https://doctors-130f6.firebaseio.com",
+    projectId: "doctors-130f6",
+    storageBucket: "doctors-130f6.appspot.com",
+    messagingSenderId: "940103207688",
+    appId: "1:940103207688:web:7a932934f75c6b14b03abd",
+    measurementId: "G-S4EQNNTZ6X"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>

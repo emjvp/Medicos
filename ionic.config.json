@@ -1,5 +1,7 @@
 {
   "name": "Medicos",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
